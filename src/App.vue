@@ -7,17 +7,12 @@ import Footer from './components/Footer.vue';
 
 <template>
   <div id="app">
-    <!-- Navbar sempre present -->
     <Navbar />
 
-    <!-- Contingut principal -->
     <main>
-      <div class="scale-container">
-        <LandingPage />
-      </div>
+      <RouterView />
     </main>
 
-    <!-- Footer sempre present -->
     <Footer />
   </div>
 </template>

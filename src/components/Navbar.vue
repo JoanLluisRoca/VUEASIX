@@ -4,6 +4,7 @@
       <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="50" height="50" />
       <nav>
         <RouterLink to="/">Home</RouterLink>
+        <router-link to="/api">Dades API</router-link>
         <RouterLink to="/about">About</RouterLink>
       </nav>
     </div>
