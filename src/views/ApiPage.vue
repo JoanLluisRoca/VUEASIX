@@ -1,6 +1,5 @@
 <template>
   <div class="page">
-    <Navbar />
 
     <main class="p-4">
       <section class="intro">
@@ -38,7 +37,6 @@
       </section>
     </main>
 
-    <Footer />
   </div>
 </template>
 
@@ -69,12 +67,24 @@ onMounted(async () => {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+
+  background-image: url('/vue.png'); /* Ruta relativa a /public */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
+/* Opcional: fons translúcid per millorar llegibilitat */
 main {
   flex: 1;
   color: black;
+  background-color: rgba(255, 255, 255, 0.9); /* lleuger blanc translúcid */
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
+
 
 .intro {
   margin-bottom: 1.5rem;

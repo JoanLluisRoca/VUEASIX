@@ -5,7 +5,7 @@
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <router-link to="/api">Dades API</router-link>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/crud">CRUD</RouterLink>
       </nav>
     </div>
   </header>
